@@ -1,10 +1,13 @@
 import React from 'react'
+import ImageQueue from '../Components/Home/ImageQueue'
+
 
 const Home = () => {
   return (
-    <>
-    <div>Home</div>
-    </>
+    <div>
+      Home
+      <ImageQueue/>
+    </div>
   )
 }
 
