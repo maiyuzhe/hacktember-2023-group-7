@@ -22,13 +22,20 @@ const Whisper = () => {
 			}
 		);
 		const result = await response.json();
-		//setResponse(result);
 		console.log(result);
+		if(result.error === "Model openai/whisper-large-v2 is currently loading") query();
+		if(result.error === "Error in `inputs`: Malformed soundfile")
+		{
+			setResponse({"text": "Unsupported file format!"})
+			return
+		}
+		setResponse(result);
 	}
 
 	//this will handle the file upload and update playbackAudio's state
 	const handleUpload = (e) => {
-		const submission = URL.createObjectURL(e.target.files[0])
+		let submission;
+		if(e.target.files[0]) submission = URL.createObjectURL(e.target.files[0])
 		setPlayback(submission);
 		setFile(e.target.files[0])
 		if(audioRef.current){
@@ -58,7 +65,7 @@ const Whisper = () => {
 		</button>
 		<div>
 			<p>Response</p>
-			{responseObject ? <p>{responseObject}</p> : ''}
+			{responseObject ? <p>{responseObject.text}</p> : ''}
 		</div>
 	</div>
 	)
