@@ -23,4 +23,6 @@ a.top-navbar-link {
   font-size: 2rem;
 }
 
-
+div.carousel-home {
+  width:50%;
+}

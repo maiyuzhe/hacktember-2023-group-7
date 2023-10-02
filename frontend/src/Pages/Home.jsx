@@ -6,7 +6,9 @@ const Home = () => {
   return (
     <div>
       Home
-      <ImageQueue/>
+      <div class="carousel-home">
+        <ImageQueue/>
+      </div>
     </div>
   )
 }
