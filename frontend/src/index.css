@@ -13,14 +13,32 @@ code {
 }
 
 div.top-navbar {
-  flex:auto;
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
   text-align: center;
+  justify-content: center;
 }
 
 a.top-navbar-link {
   padding: 2rem;
   font-size: 2rem;
+}
+
+div.home-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.carousel-home {
+  width: 50rem;
+  object-fit: contain;
+}
+
+img.home-carousel-image {
+  width: 50rem;
+  object-fit: cover;
 }
 
 
