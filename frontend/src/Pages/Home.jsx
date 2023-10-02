@@ -4,7 +4,7 @@ import ImageQueue from '../Components/Home/ImageQueue'
 
 const Home = () => {
   return (
-    <div>
+    <div class="home-page">
       Home
       <div class="carousel-home">
         <ImageQueue/>
