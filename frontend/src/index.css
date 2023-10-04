@@ -40,3 +40,426 @@ img.home-carousel-image {
   width: 50rem;
   object-fit: cover;
 }
+
+
+
+
+/* Figma Styling */
+
+
+
+
+/* Header  */
+
+.header {
+  background: linear-gradient(180deg, rgb(94.13, 176.49, 156.73) 0%, rgb(13, 6, 37) 100%);
+  background-color: rgba(255, 255, 255, 1);
+  height: 84px;
+  position: relative;
+  width: 1512px;
+}
+
+.header .logo {
+  height: 70px;
+  left: 1382px;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  transform: rotate(-180deg);
+  width: 96px;
+}
+
+.header .button-instance {
+  left: 44px !important;
+  position: absolute !important;
+  top: 4px !important;
+  transform: rotate(-180deg) !important;
+}
+
+.header .design-component-instance-node {
+  left: 327px !important;
+  position: absolute !important;
+  top: 5px !important;
+  transform: rotate(-180deg) !important;
+}
+
+.header .button-2 {
+  left: 567px !important;
+  position: absolute !important;
+  top: 5px !important;
+  transform: rotate(-180deg) !important;
+  width: 208px !important;
+}
+
+.header .button-3 {
+  left: 785px !important;
+  overflow: hidden !important;
+  position: absolute !important;
+  top: 5px !important;
+  transform: rotate(-180deg) !important;
+  width: 197px !important;
+}
+
+.header .button-4 {
+  left: 785px !important;
+  overflow: hidden !important;
+  position: absolute !important;
+  top: 5px !important;
+  transform: rotate(-180deg) !important;
+  width: 197px !important;
+}
+
+
+/* Button */
+
+
+.button {
+  position: relative;
+}
+
+.button .sign-up {
+  position: absolute;
+}
+
+.button .text-wrapper {
+  font-family: "JetBrains Mono-Medium", Helvetica;
+  font-size: 28px;
+  font-weight: 500;
+  height: 52px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 172px;
+}
+
+.button .line {
+  height: 2px;
+  position: absolute;
+  top: 51px;
+}
+
+.button.footer {
+  height: 48px;
+  overflow: hidden;
+  width: 341px;
+}
+
+.button.default {
+  height: 73px;
+  overflow: hidden;
+  width: 231px;
+}
+
+.button.hover.header {
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px 29px;
+}
+
+.button.default.header {
+  height: 73px;
+  width: 231px;
+}
+
+.button.default.light {
+  background-color: #090909;
+}
+
+.button.press.header {
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px 29px;
+}
+
+.button.default.default.press {
+  background-color: #dcff05;
+}
+
+.button.default.default.hover {
+  background-color: #44d9b7;
+}
+
+.button.default.default.default {
+  background-color: #5eb09d;
+}
+
+.button.default.press.header {
+  display: flex;
+  width: 230px;
+}
+
+.button.press.light.header {
+  display: inline-flex;
+}
+
+.button.footer .sign-up {
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  height: 47px;
+  left: 16px;
+  letter-spacing: 0;
+  line-height: 65px;
+  top: -1px;
+  white-space: nowrap;
+  width: 341px;
+}
+
+.button.default .sign-up {
+  font-family: var(--text-styles-button-font-family);
+  font-size: var(--text-styles-button-font-size);
+  font-style: var(--text-styles-button-font-style);
+  font-weight: var(--text-styles-button-font-weight);
+  height: 72px;
+  left: -1px;
+  letter-spacing: var(--text-styles-button-letter-spacing);
+  line-height: var(--text-styles-button-line-height);
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 232px;
+}
+
+.button.header .sign-up {
+  color: #000000;
+  font-family: "JetBrains Mono-Medium", Helvetica;
+  font-size: 28px;
+  font-weight: 500;
+  height: 52px;
+  left: 29px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  top: 10px;
+  width: 172px;
+}
+
+.button.default.default .sign-up {
+  color: #000000;
+}
+
+.button.footer.default.hover .sign-up {
+  color: #dcff05;
+}
+
+.button.hover.default.light .sign-up {
+  color: #44d9b7;
+}
+
+.button.footer.hover.light .sign-up {
+  color: #102325;
+}
+
+.button.footer.default.default .sign-up {
+  color: #ffffff;
+}
+
+.button.default.press.light .sign-up {
+  color: #dcff05;
+}
+
+.button.footer.press.light .sign-up {
+  color: #000000;
+}
+
+.button.default.default.light .sign-up {
+  color: #f6f6f6;
+}
+
+.button.footer.default.light .sign-up {
+  color: #373737;
+}
+
+.button.footer.default.press .sign-up {
+  color: #44d9b7;
+}
+
+.button.press .text-wrapper {
+  color: #000000;
+}
+
+.button.default .text-wrapper {
+  color: #000000;
+}
+
+.button.default .text-wrapper {
+  color: #000000;
+}
+
+.button.hover.light .text-wrapper {
+  color: #4200ff;
+}
+
+.button.default .line {
+  left: 65px;
+  width: 100px;
+}
+
+.button.light .line {
+  left: 83px;
+  width: 64px;
+}
+
+
+
+
+
+/* Hero */
+
+.hero-section {
+  background: radial-gradient(50% 50% at 50% 50%, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+  background-color: rgba(255, 255, 255, 1);
+  height: 890px;
+  position: relative;
+  width: 1506px;
+}
+
+.hero-section .overlap {
+  height: 200px;
+  left: 190px;
+  position: absolute;
+  top: 404px;
+  width: 523px;
+}
+
+.hero-section .button-instance {
+  left: 0 !important;
+  position: absolute !important;
+  top: 127px !important;
+}
+
+.hero-section .AI-powered-learning {
+  color: #ffffff;
+  font-family: "JetBrains Mono-Medium", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0.05px;
+  line-height: 38.4px;
+  position: absolute;
+  top: 0;
+  width: 523px;
+}
+
+.hero-section .frame-wrapper {
+  /* background-image: url(./hero-image.png); */
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 890px;
+  left: 715px;
+  position: absolute;
+  top: 0;
+  width: 791px;
+}
+
+.hero-section .frame-1 {
+  left: 531px !important;
+  position: relative !important;
+  top: 7px !important;
+}
+
+.hero-section .frame-instance {
+  color: #ffffff !important;
+}
+
+.hero-section .frame-1-instance {
+  background-color: #ffffff !important;
+}
+
+
+
+/* Label  */
+
+
+.label {
+  height: 122px;
+  width: 524px;
+}
+
+.label .learning-made-easier {
+  color: #5eb09d;
+  font-family: "JetBrains Mono-ExtraBold", Helvetica;
+  font-size: 55px;
+  font-weight: 800;
+  left: 0;
+  letter-spacing: 0.11px;
+  line-height: 71.5px;
+  position: fixed;
+  top: 0;
+  width: 524px;
+}
+
+
+
+/* Frame  */
+
+
+.frame {
+  height: 88px;
+  width: 204px;
+}
+
+.frame .overlap-group {
+  height: 89px;
+  position: relative;
+  top: -1px;
+}
+
+.frame .rectangle {
+  border-radius: 20px;
+  height: 27px;
+  left: 73px;
+  position: absolute;
+  top: 62px;
+  width: 53px;
+}
+
+.frame .dark-light {
+  color: #000000;
+  font-family: "JetBrains Mono-Bold", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  height: 84px;
+  left: 0;
+  letter-spacing: 0.48px;
+  line-height: 65px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 204px;
+}
+
+.frame .ellipse {
+  background-color: #000000;
+  border-radius: 8.5px;
+  height: 17px;
+  position: absolute;
+  top: 67px;
+  width: 17px;
+}
+
+.frame .default {
+  background-color: #ffffff80;
+}
+
+.frame .variant-2 {
+  background-color: #5eb09d;
+}
+
+.frame .property-1-default {
+  left: 77px;
+}
+
+.frame .property-1-variant-2 {
+  left: 102px;
+}
+
+
+
+
+
