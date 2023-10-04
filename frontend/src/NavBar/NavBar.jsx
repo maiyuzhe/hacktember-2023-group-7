@@ -1,16 +1,18 @@
-import React from 'react'
-import { Link } from "react-router-dom";
+import React from "react";
+// import Button from "./Button";
+import "../index.css";
 
-
-const NavBar = () => {
+const Header = () => {
   return (
-    <div class='top-navbar'>
-      <Link to="home" class='top-navbar-link'>Home</Link>
-      <Link to="about" class='top-navbar-link'>About</Link>
-      <Link to="courses" class='top-navbar-link'>Courses</Link>
-      <Link to="transcriptions" class='top-navbar-link'>Transcribe</Link>
+    <div className="header">
+      <img className="logo" alt="Logo" src="logo.png" />
+      {/* <Button className="button-instance" mode="default" stateProp="default" type="header" />;
+      <Button className="button-instance" mode="default" stateProp="default" text="about" type="header" />;
+      <Button mode="default" stateProp="default" text="courses" type="header" />;
+      <Button mode="default" stateProp="default" text="log-in" type="header" />; */}
     </div>
-  )
-}
+  );
+};
 
-export default NavBar
+
+export default Header
